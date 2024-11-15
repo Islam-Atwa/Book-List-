@@ -1,0 +1,35 @@
+.container{
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 0;
+}
+.container h1{
+    padding-top: 1rem;
+}
+.container #book-form{
+    display: flex;
+    flex-direction: column;
+}
+.container #book-form .title{
+    display: block;
+    margin-top: 15px ;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-bottom: 5px;
+    color: rebeccapurple;
+}
+
+.container #book-form .form-control{
+    width: calc(100% - 30px);
+    height: 2rem;
+    border: solid #777 1px;
+}
+
+button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid #555;
+    background-color: slateblue;
+}
