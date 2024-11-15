@@ -30,6 +30,14 @@ button{
     padding: 10px 20px;
     color: white;
     font-size: 20px;
-    border: 1px solid #555;
+    /* border: 1px solid #555; */
     background-color: slateblue;
+}
+
+.table tr {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 23rem;
 }
